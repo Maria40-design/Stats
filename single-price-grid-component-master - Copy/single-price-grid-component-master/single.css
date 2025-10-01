@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font-size: 16px;
+    background-color:  hsl(204, 43%, 93%);
+    color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+.join1 {
+    background-color: white;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.part {
+    display: flex;
+    width: 100%;
+}
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+}
+.month {
+    padding-bottom: 15px;
+}
+.mont {
+    padding-bottom: 5px;
+}
+.access {
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+h3 {
+     color:  hsl(179, 62%, 43%);
+     padding-bottom: 10px;
+}
+.guarantee{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 8px;
+}
+.gain {
+    color:  hsl(218, 22%, 67%);
+    font-size: 14px;
+}
+.why {
+    background-color:hsl(179, 49%, 51%);
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+}
+.us {
+   padding-bottom: 15px;
+}
+.dollar {
+    font-size: 25px;
+}
+.per {
+    color: hsl(179, 49%, 51%);
+    font-size: 14px;
+} 
+.tutorials {
+    font-size: 14px;
+    opacity: 80%;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 90%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px 0px hsl(0, 0%, 44%);
+}
+@media screen and (max-width: 700px){
+    .container {
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+    .part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .why {
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .subscription {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+}
